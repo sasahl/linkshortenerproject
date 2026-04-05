@@ -84,9 +84,7 @@ export default async function Home() {
         <h2 className="text-2xl font-semibold tracking-tight">
           Ready to shorten your first link?
         </h2>
-        <SignUpButton mode="modal">
-          <Button size="lg">Create a free account</Button>
-        </SignUpButton>
+
       </section>
     </div>
   );
