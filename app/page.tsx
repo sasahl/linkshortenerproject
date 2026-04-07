@@ -48,10 +48,10 @@ export default async function Home() {
           anywhere — and tracks every click along the way.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-3">
-          <SignUpButton mode="modal">
+          <SignUpButton mode="modal" forceRedirectUrl="/dashboard">
             <Button size="lg">Get started free</Button>
           </SignUpButton>
-          <SignInButton mode="modal">
+          <SignInButton mode="modal" forceRedirectUrl="/dashboard">
             <Button size="lg" variant="outline">Sign in</Button>
           </SignInButton>
         </div>

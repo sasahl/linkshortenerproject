@@ -23,4 +23,9 @@ The `/docs` directory is the authoritative source for this project's coding stan
 | Authentication | [docs/auth-clerk.md](docs/auth-clerk.md) | Clerk v7, middleware, protected routes, modal sign-in/up, redirect logic |
 | UI Components | [docs/ui-shadcn.md](docs/ui-shadcn.md) | shadcn/ui only, CLI install, import paths, variants, lucide icons, anti-patterns |
 
+> ## ⛔ NEVER USE `middleware.ts`
+> `middleware.ts` is **deprecated and non-functional** in the version of Next.js used by this project.
+> **Always use `proxy.ts`** instead for all routing middleware logic (e.g. Clerk auth guards).
+> Do not create, reference, or suggest `middleware.ts` under any circumstances.
+
 
