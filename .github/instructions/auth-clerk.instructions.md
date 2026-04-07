@@ -1,3 +1,7 @@
+---
+description: This file describes how to use Clerk for authentication in this project. Read this when modifying or implementing authentication-related functionality.
+---
+
 # Authentication – Clerk (`@clerk/nextjs` v7)
 
 ## Rules

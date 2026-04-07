@@ -1,3 +1,7 @@
+---
+description: This file describes how to use shadcn/ui components in this project. Read this when adding or modifying UI components.
+---
+
 # UI – shadcn/ui
 
 ## Rules
